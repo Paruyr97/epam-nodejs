@@ -1,0 +1,1 @@
+let isRegistered = false;
