@@ -1,10 +1,10 @@
 import { faker } from '@faker-js/faker';
 import _ from 'lodash';
 
-let users = Array.from({ length: 10 }, () => ({
+const users = Array.from({ length: 10 }, () => ({
     name: faker.person.firstName(),
     email: faker.internet.email(),
-    phone: faker.phone.imei()
+    phone: faker.phone.imei(),
 }));
 
 console.log('users', users);
