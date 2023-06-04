@@ -12,7 +12,7 @@ const operations = {
             callback(null, chunk.toString().toLowerCase());
         },
     }),
-    capitalise: new Transform({
+    capitalize: new Transform({
         transform(chunk, encoding, callback) {
             callback(
                 null,
